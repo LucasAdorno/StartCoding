@@ -1,0 +1,145 @@
+@media(max-width: 1200px){
+    .container{
+        margin-left: -150px;
+    }
+    .title-site{
+        margin-left:29vw;
+    }
+    .container-aula{
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .list-aula ul{
+        margin-left: -114px;
+        display: flex;
+        /* flex-direction: column; */
+    }
+    .title-aula{
+        margin-right:10px ;
+    }
+    .marcador{
+        margin-right: 6px;
+    }
+    .botoes{
+        margin-left: 130px;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media(max-width:788px){
+    .title-site{
+        font-size: 68px;
+    }
+    .title-site span{
+        color: #021552
+    }
+    .autor{
+        font-size: 14px;
+    }
+
+    .videos{
+        width: 600px;
+        height: 342px;;
+    }
+
+    .title-aula{
+        font-size:14px;
+    }
+    
+    .marcador{
+        width: 10px;
+        height: 10px;
+    }
+}
+
+@media(max-width:692px){
+    .title-site{
+        margin-left: 34vw;
+        font-size: 58px;
+    }
+    .autor{
+        font-size: 10px;
+    }
+
+    .videos{
+        width: 500px;
+        height: 285px;
+    }
+    .list-aula ul{
+        flex-direction: column;
+        align-items: flex-start;
+        margin-left: -330px;
+    }
+    .title-aula{
+        font-size:16px;
+    }
+    
+    .marcador{
+        width: 10px;
+        height: 10px;
+        margin-right: 4px;
+    }
+    .botoes{
+        flex-direction: column;
+        align-items: flex-end;
+        justify-content: flex-end;
+        margin-top: -162px;
+        margin-right: 50px;
+    }
+    .discord{
+        margin-top: 20px;
+    }
+}
+@media(max-width: 526px){
+    .title-site{
+        font-size: calc(8vw);
+        margin-left: 170px;
+        align-items: baseline;
+    }
+    .autor{
+        margin-left: 0;
+        font-size:8px;
+    }
+    .videos{
+        margin-left:-10px;
+        width: 100%;
+        height: calc(100vw * 0.57);
+    }
+    .list-aula ul{
+        flex-direction: column;
+        align-items: flex-start;
+        margin-left: calc(-106vw * 0.62);
+    }
+    .title-aula{
+        font-size:12px;
+    }
+    
+    .marcador{
+        width: 10px;
+        height: 10px;
+        margin-right: 4px;
+    }
+    .botoes{
+        flex-direction: column;
+        align-items: flex-end;
+        justify-content: flex-end;
+        margin-top: -162px;
+        margin-right: 4px;
+    }
+    .discord{
+        width: 140px;
+        height: 50px;
+        font-size: 14px;
+    }
+    img{
+        width: 24px;
+        height: 16px;
+    }
+    .extra{
+        width: 140px;
+        height: 50px;
+        font-size: 14px;
+    }
+}

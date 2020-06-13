@@ -84,7 +84,7 @@ body{
     transition: 300ms;
     cursor:pointer;
 }
-.download{
+.download, .link-discord{
     text-decoration: none;
     color:white;
 }

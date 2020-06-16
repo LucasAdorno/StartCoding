@@ -87,6 +87,7 @@ body{
 .download, .link-discord{
     text-decoration: none;
     color:white;
+    outline: none;
 }
 .extra:hover{
     background-color: rgb(25, 143, 1);

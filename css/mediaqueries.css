@@ -13,7 +13,10 @@
     .list-aula ul{
         margin-left: -114px;
         display: flex;
-        /* flex-direction: column; */
+    }
+    .buttonSobre{
+        top:604px;
+        left: 43%;
     }
     .title-aula{
         margin-right:10px ;
@@ -24,6 +27,9 @@
     .botoes{
         margin-left: 130px;
         align-items: center;
+        justify-content: center;
+    }
+    footer{
         justify-content: center;
     }
 }
@@ -48,6 +54,11 @@
     .marcador{
         width: 10px;
         height: 10px;
+    }
+    .buttonSobre{
+        top:516px;
+        left: 40%;
+        font-size: 16px;
     }
 }
 
@@ -77,6 +88,10 @@
         width: 10px;
         height: 10px;
         margin-right: 4px;
+    }
+    .buttonSobre{
+        top:446px;
+        left: 67%;
     }
     .botoes{
         flex-direction: column;
@@ -118,6 +133,13 @@
         height: 10px;
         margin-right: 4px;
     }
+    .buttonSobre{
+        top:80vw;
+        left: 74vw;
+        font-size: 16px;
+        width: 100px;
+        height: 30px;
+    }
     .botoes{
         flex-direction: column;
         align-items: flex-end;
@@ -130,7 +152,7 @@
         height: 50px;
         font-size: 14px;
     }
-    img{
+    #logoDiscord{
         width: 24px;
         height: 16px;
     }
@@ -138,5 +160,28 @@
         width: 140px;
         height: 50px;
         font-size: 14px;
+    }
+
+    #logoIcon{
+        height: 35px;
+    }
+    #logoUfba{
+        margin-left: 15px;
+        height: 75px;
+    }
+    #textCop{
+        font-size:11px;
+    }
+    
+}
+@media(max-width: 390px){
+    .list-aula ul{
+        flex-direction: column;
+        align-items: flex-start;
+        margin-left: calc(-106vw * 0.67);
+    }
+    .buttonSobre{
+        top:84vw;
+        left: 66vw;
     }
 }

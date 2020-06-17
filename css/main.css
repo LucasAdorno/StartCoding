@@ -66,6 +66,28 @@ body{
     background-color: rgb(35, 179, 6);
 }
 
+.buttonSobre{
+    background-color: #dd2d2d;
+    width: 120px;
+    height: 40px;
+    position: absolute;
+    top:514px;
+    left: 980px;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    font-size: 24px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: 300ms;
+}
+.buttonSobre:hover{
+    background-color: #b61515;
+
+}
+
 .botoes{
     display: flex;
     margin-top:28px;
@@ -107,12 +129,46 @@ body{
     transition: 300ms;
     cursor: pointer;
 }
-img{
+#logoDiscord{
     width: 30px;
     height:22px;
     margin-left: 10px;
 }
 .discord:hover{
     background-color: rgb(3, 87, 121);
+}
+
+.finalPage{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+}
+footer{
+    position: relative;
+    bottom: 0;
+    margin-top: 28px;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+}
+#footerImg{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+#logoIcon{
+    height: 50px;
+}
+#logoUfba{
+    margin-left: 15px;
+    height: 90px;
+}
+#textCop{
+    color: #ffffff;
+    text-align: center;
+    margin-top:20px;
 }
 

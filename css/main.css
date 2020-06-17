@@ -133,6 +133,21 @@ body{
     transition: 300ms;
     cursor: pointer;
 }
+.contato{
+    width: 210px;
+    height: 52px;
+    margin-left: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    text-decoration: none;
+    color:white;
+    border-radius: 4px;
+    background-color: rgb(167, 120, 1);
+    transition: 300ms;
+    cursor: pointer;
+}
 #logoDiscord{
     width: 30px;
     height:22px;
@@ -140,6 +155,10 @@ body{
 }
 .discord:hover{
     background-color: rgb(3, 87, 121);
+}
+
+.contato:hover{
+    background-color: rgb(121, 87, 3);
 }
 
 .finalPage{
@@ -162,16 +181,19 @@ footer{
     justify-content: flex-end;
 }
 
-#logoIcon{
+#logo{
     height: 50px;
-}
-#logoUfba{
-    margin-left: 15px;
-    height: 90px;
+    padding: 2px 35px;
 }
 #textCop{
     color: #ffffff;
     text-align: center;
     margin-top:20px;
+}
+.invert {
+    filter: invert(100%);
+}
+.container {
+    margin: auto;
 }
 

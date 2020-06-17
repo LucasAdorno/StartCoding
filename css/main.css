@@ -1,6 +1,10 @@
 body{
     background-color: rgb(28, 1, 53);
     font-family: Poppins, sans-serif;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .title-site{
@@ -142,11 +146,10 @@ body{
     width: 100%;
     display: flex;
     justify-content: center;
+    position: relative;
     
 }
 footer{
-    position: relative;
-    bottom: 0;
     margin-top: 28px;
     display: flex;
     flex-direction:column;

@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>StartCod/ng</title>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap"
-    rel="stylesheet">
+        rel="stylesheet">
     <link rel="icon" href="img/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/modal.css">
@@ -16,97 +16,103 @@
 <body>
 
     <div class="container">
-        <div class="title-site">StartCod<span>/</span>ng <a href="https://linkedin.com/in/lucasadornof"
-            target="_blank" class="autor">por Lucas Adorno</a></div>
-            <div class="container-aula">
-                <div class="videos">
-                    <iframe width="100%" height="100%" src="" frameborder="0"
+        <div class="title-site">StartCod<span>/</span>ng <a href="https://linkedin.com/in/lucasadornof" target="_blank"
+                class="autor">por Lucas Adorno</a></div>
+        <div class="container-aula">
+            <div class="videos">
+                <iframe width="100%" height="100%" src="" frameborder="0"
                     allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                     allowfullscreen></iframe>
-                </div>
-                <div class="list-aula">
-                    <ul>
-                        <li class="title-aula">
-                            <div class="marcador marcador-ativo" id="0"></div>Olá Mundo!
-                        </li>
-                        <li class="title-aula">
-                            <div class="marcador" id="1"></div>É só o começo
-                        </li>
-                        <li class="title-aula">
-                            <div class="marcador" id="2"></div>Segue o baile
-                        </li>
-                        <li class="title-aula">
-                            <div class="marcador" id="3"></div>Falta pouco
-                        </li>
-                        <li class="title-aula">
-                            <div class="marcador" id="4"></div>Comece a caminhar
-                        </li>
-                    </ul>
-                </div>
-                <div class="buttonSobre" onclick="openModal()">Sobre</div>
             </div>
-            <div class="botoes">
-                <a class="download" href="" download="">
-                    <div class="extra">Material Extra</div>
-                </a>
-                <a href="https://discord.gg/XMCzkNG" target="_blank" class="link-discord">
-                    <div class="discord">
-                        <div>Comunidade</div> <img id="logoDiscord" src="/img/discord-logo.png" alt="logo-discord">
-                    </div>
-                </a>
-                <a href="https://icon.ufba.br/#contact" target="_blank" class="link-contato">
-                    <div class="contato">
-                        <div>Contato</div> 
-                    </div>
-                </a>
+            <div class="list-aula">
+                <ul>
+                    <li class="title-aula">
+                        <div class="marcador marcador-ativo" id="0"></div>Olá Mundo!
+                    </li>
+                    <li class="title-aula">
+                        <div class="marcador" id="1"></div>É só o começo
+                    </li>
+                    <li class="title-aula">
+                        <div class="marcador" id="2"></div>Segue o baile
+                    </li>
+                    <li class="title-aula">
+                        <div class="marcador" id="3"></div>Falta pouco
+                    </li>
+                    <li class="title-aula">
+                        <div class="marcador" id="4"></div>Comece a caminhar
+                    </li>
+                </ul>
             </div>
+           
         </div>
-
-        <div class="finalPage">
-            <footer>
-                <div id="footerImg">
-                    <a href="https://icon.ufba.br" target="_blank"><img id="logo" src="/img/logo-b.png" alt=""></a>
-                    <a href="http://ihacdigital.ufba.br/" target="_blank"><img id="logo" class="invert" src="/img/ihac-digital-logo.png" alt=""></a>
-                    <a href="https://ihac.ufba.br" target="_blank"><img id="logo" src="/img/logo-ihac.jpg" alt=""></a>
-                    <a href="https://ufba.br" target="_blank"><img id="logo" src="/img/ufba.png" alt=""></a>
+        <div class="botoes">
+            <a class="download" href="" download="">
+                <div class="extra">Material Extra</div>
+            </a>
+            <a href="https://discord.gg/XMCzkNG" target="_blank" class="link-discord">
+                <div class="discord">
+                    <div>Comunidade</div> <img id="logoDiscord" src="/img/discord-logo.png" alt="logo-discord">
                 </div>
-                <div id="textCop">© 2020 ICON - Laboratório de Pesquisa, Desenvolvimento e Inovação em Interatividade,
+            </a>
+            <a href="https://icon.ufba.br/#contact" target="_blank" class="link-contato">
+                <div class="contato">
+                    <div>Contato</div>
+                </div>
+            </a>
+        </div>
+    </div>
+
+    <div class="finalPage">
+        <footer>
+            <div class="buttonSobre" onclick="openModal()">Sobre</div>
+            <div id="footerImg">
+                <a href="https://icon.ufba.br" target="_blank"><img id="logo" src="/img/logo-b.png" alt=""></a>
+                <a href="http://ihacdigital.ufba.br/" target="_blank"><img id="logo" class="invert"
+                        src="/img/ihac-digital-logo.png" alt=""></a>
+                <a href="https://ihac.ufba.br" target="_blank"><img id="logo" src="/img/logo-ihac.jpg" alt=""></a>
+                <a href="https://ufba.br" target="_blank"><img id="logo" src="/img/ufba.png" alt=""></a>
+            </div>
+            <div id="textCop">© 2020 ICON - Laboratório de Pesquisa, Desenvolvimento e Inovação em Interatividade,
                 Computação e Novas Interfaces</div>
-            </footer>
-        </div>
+        </footer>
+    </div>
 
 
-        <div class="modal hide">
-            <div class="closeModal" onclick="closeModal()">X</div>
-            <div class="textoModal">
-                Esta avitidade de extensão, que também integra a iniciativa do <a href="http://ihacdigital.ufba.br" target="_blank">IHACDigital</a> nasce com o objetivo de diminuir a barreira de acesso ao conhecimento em programação e desmitificar
-                que a mesma é algo distante para a sociedade, surge o <strong
+    <div class="modal hide">
+        <div class="closeModal" onclick="closeModal()">X</div>
+        <div class="textoModal">
+            Esta avitidade de extensão, que também integra a iniciativa do <a id="ihacDigialModal" href="http://ihacdigital.ufba.br"
+                target="_blank">IHACDigital</a> nasce com o objetivo de diminuir a barreira de acesso ao conhecimento em
+            programação e desmitificar
+            que a mesma é algo distante para a sociedade, surge o <strong
                 style="font-style: italic;">StartCoding</strong>, utilizando de tecnologias que podem ser acessíveis a
-                população.
-                <br />Um curso de introdução a progamação completo que utiliza como linguagem o Python,
-                além de disponibilizar listas de exercícios e uma comunidade para integrar os estudantes, o que permite
-                otimizar ao
-                máximo o aprendizado do aluno,
-                <br />O projeto tem como autor Lucas Adorno - aluno do Bacharelado Interdisciplinar em Ciência e Tecnologia - e faz parte de uma inciativa do Laboratório de pesquisa,
-                desenvolvimento e inovação em interatividade,
-                computação e novas interfaces - ICON, com sede no Instituto de Humanidades, Artes e Ciências Prof. Milton Santos da Universidade Federal da Bahia.
+            população.
+            <br />Um curso de introdução a progamação completo que utiliza como linguagem o Python,
+            além de disponibilizar listas de exercícios e uma comunidade para integrar os estudantes, o que permite
+            otimizar ao
+            máximo o aprendizado do aluno,
+            <br />O projeto tem como autor Lucas Adorno - aluno do Bacharelado Interdisciplinar em Ciência e Tecnologia
+            - e faz parte de uma inciativa do Laboratório de pesquisa,
+            desenvolvimento e inovação em interatividade,
+            computação e novas interfaces - ICON, com sede no Instituto de Humanidades, Artes e Ciências Prof. Milton
+            Santos da Universidade Federal da Bahia.
 
-            </div>
         </div>
+    </div>
 
-        <script src="/scripts/jquery.js"></script>
-        <script src="/scripts/selectList.js"></script>
-        <script src="/scripts/modal.js"></script>
-        <!-- Global site tag (gtag.js) - Google Analytics -->
-        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-149835488-5"></script>
-        <script>
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
+    <script src="/scripts/jquery.js"></script>
+    <script src="/scripts/selectList.js"></script>
+    <script src="/scripts/modal.js"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-149835488-5"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
 
-          gtag('config', 'UA-149835488-5');
-      </script>
+        gtag('config', 'UA-149835488-5');
+    </script>
 
-  </body>
+</body>
 
-  </html>
+</html>

@@ -35,6 +35,9 @@
 }
 
 @media(max-width:788px){
+    .container{
+        margin-left: -110px;
+    }
     .title-site{
         font-size: 68px;
     }

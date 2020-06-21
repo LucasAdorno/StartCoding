@@ -2,8 +2,14 @@
     .container{
         margin-left: -150px;
     }
+
+    .videos{
+        margin-left:-16px;
+        width: 100vw;
+        height: calc(100vw * 0.57);
+    }
     .title-site{
-        margin-left:29vw;
+        margin-left:37vw;
     }
     .container-aula{
         align-items: center;
@@ -36,7 +42,7 @@
 
 @media(max-width:788px){
     .container{
-        margin-left: -110px;
+        margin-left: -160px;
     }
     .title-site{
         font-size: 68px;
@@ -44,12 +50,6 @@
     .autor{
         font-size: 14px;
     }
-
-    .videos{
-        width: 600px;
-        height: 342px;;
-    }
-
     .title-aula{
         font-size:14px;
     }
@@ -67,17 +67,18 @@
 
 @media(max-width:692px){
     .title-site{
-        margin-left: 34vw;
+        margin-left: 22vw;
         font-size: 58px;
+        align-items: center;
+        justify-content: center;
     }
-    .autor{
-        font-size: 10px;
+    .videos{
+        margin-left:-12px;
+        margin-bottom: 10px;
+        width: 100vw;
+        height: calc(100vw * 0.57);
     }
 
-    .videos{
-        width: 500px;
-        height: 285px;
-    }
     .list-aula ul{
         flex-direction: column;
         align-items: flex-start;
@@ -110,17 +111,13 @@
 @media(max-width: 526px){
     .title-site{
         font-size: calc(8vw);
-        margin-left: 170px;
-        align-items: baseline;
+        margin-left: 116px;
+        align-items: center;
+        justify-content: center;
     }
     .autor{
         margin-left: 0;
         font-size:8px;
-    }
-    .videos{
-        margin-left:-10px;
-        width: 100%;
-        height: calc(100vw * 0.57);
     }
     .list-aula ul{
         flex-direction: column;

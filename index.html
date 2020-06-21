@@ -8,16 +8,15 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap"
         rel="stylesheet">
     <link rel="icon" href="img/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/modal.css">
-    <link rel="stylesheet" href="css/mediaqueries.css">
+    <link rel="stylesheet" href="css/main.css?v=1.1">
+    <link rel="stylesheet" href="css/modal.css?v=1.1">
+    <link rel="stylesheet" href="css/mediaqueries.css?v=1.1">
 </head>
 
 <body>
 
     <div class="container">
-        <div class="title-site">StartCod<span>/</span>ng <a href="https://linkedin.com/in/lucasadornof" target="_blank"
-                class="autor">por Lucas Adorno</a></div>
+        <div class="title-site">StartCod<span>/</span>ng</div>
         <div class="container-aula">
             <div class="videos">
                 <iframe width="100%" height="100%" src="" frameborder="0"
@@ -26,20 +25,20 @@
             </div>
             <div class="list-aula">
                 <ul>
-                    <li class="title-aula">
-                        <div class="marcador marcador-ativo" id="0"></div>Olá Mundo!
+                    <li style="cursor: pointer;"class="title-aula" onclick="ativarMarcador(0)">
+                        <div style="cursor: pointer;" class="marcador marcador-ativo" id="0"  ></div>Olá Mundo!
                     </li>
-                    <li class="title-aula">
-                        <div class="marcador" id="1"></div>É só o começo
+                    <li style="cursor: pointer;"class="title-aula"  onclick="ativarMarcador(1)" >
+                        <div style="cursor: pointer;" class="marcador" id="1"></div>É só o começo
                     </li>
-                    <li class="title-aula">
-                        <div class="marcador" id="2"></div>Segue o baile
+                    <li style="cursor: pointer;"class="title-aula" onclick="ativarMarcador(2)">
+                        <div style="cursor: pointer;" class="marcador" id="2"  ></div>Segue o baile
                     </li>
-                    <li class="title-aula">
-                        <div class="marcador" id="3"></div>Falta pouco
+                    <li style="cursor: pointer;" class="title-aula" onclick="ativarMarcador(3)">
+                        <div style="cursor: pointer;" class="marcador" id="3" ></div>Falta pouco
                     </li>
-                    <li class="title-aula">
-                        <div class="marcador" id="4"></div>Comece a caminhar
+                    <li style="cursor: pointer;"class="title-aula"  onclick="ativarMarcador(4)">
+                        <div style="cursor: pointer;" class="marcador" id="4" ></div>Comece a caminhar
                     </li>
                 </ul>
             </div>
@@ -100,9 +99,9 @@
         </div>
     </div>
 
-    <script src="scripts/jquery.js"></script>
-    <script src="scripts/selectList.js"></script>
-    <script src="scripts/modal.js"></script>
+    <script src="scripts/jquery.js?v=1.1"></script>
+    <script src="scripts/selectList.js?v=1.1"></script>
+    <script src="scripts/modal.js?v=1.1"></script>
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-149835488-5"></script>
     <script>

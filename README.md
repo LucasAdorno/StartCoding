@@ -14,7 +14,7 @@
 
 <div align="center">
   <img src="img/desktop-screenshot.png" width="800">
-  <img src="img/tablet-screenshot.png" width="640" height="650">
-  <img src="img/mobile-screenshot.png" width="367" height="650">
+  <img src="img/tablet-screenshot.png" width="640">
+  <img src="img/mobile-screenshot.png" width="367">
 </div>
 

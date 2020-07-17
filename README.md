@@ -1,4 +1,4 @@
-﻿# StartCoding
+# StartCod/ng
 
 ### https://icon.ufba.br/startcoding
 

@@ -2,11 +2,6 @@ liItems = document.querySelectorAll('.marcador')
 
 window.onload = () => {$('iframe').attr('src', 'https://www.youtube.com/embed/w2jeYJB4zqA'); $('.download').attr('href', 'documents/StartCod_ng Lista - 01.pdf') }
 
-
-// for(item of liItems){
-//     item.addEventListener('click', ativarMarcador)
-// }
-
 function ativarMarcador(liId){
     for(item of liItems){
         $(item).removeClass('marcador-ativo')
